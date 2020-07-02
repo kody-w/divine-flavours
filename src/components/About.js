@@ -4,7 +4,7 @@ function About() {
     return (
         <div className="container mt-5">
             <div className="row">
-                About this site...
+                Something else about this site...
             </div>
         </div>
     );
