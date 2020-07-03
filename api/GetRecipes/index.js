@@ -12,7 +12,7 @@ module.exports = async function (context, req) {
                 'OData-Version': '4.0',
             },
             params: {
-                "$select": 'df_dishid,df_name'
+                "$select": 'df_dishid,df_name,df_test'
             }
         });
 
@@ -21,6 +21,7 @@ module.exports = async function (context, req) {
             return {
                 "id": bag.df_dishid,
                 "name": bag.df_name,
+                "test": bag.df_test,
                 "short_description": "(PLACEHOLDER) Get refreshed this summer",
                 "images": [
                     {
