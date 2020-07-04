@@ -4,7 +4,8 @@ function About() {
     return (
         <div className="container mt-5">
             <div className="row">
-                Something else about this site... To be merged
+                About me
+        <p>I am Ana, and I am just presenting stuff.</p>
             </div>
         </div>
     );
